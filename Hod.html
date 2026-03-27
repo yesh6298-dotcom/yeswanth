@@ -1,0 +1,28 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <le>Hostel Outing Request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🏫 Hostel Outing Request</h1>
+
+        <form id="outingForm">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="text" id="room" placeholder="Room Number" required>
+            <input type="text" id="reason" placeholder="Reason for Outing" required>
+            <input type="datetime-local" id="date" required>
+            
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <h2>📋 Requests</h2>
+        <ul id="requestList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
